@@ -15,9 +15,9 @@ CREATE TABLE subcategory(
 
 CREATE TABLE contacts(
 	contact_id INT NOT NULL PRIMARY KEY ,
-	first_name VARCHAR(30),
-	last_name VARCHAR(30),
-	email VARCHAR(70)
+	first_name VARCHAR(30) NOT NULL,
+	last_name VARCHAR(30) NOT NULL,
+	email VARCHAR(70) NOT NULL
 );
 
 CREATE TABLE campaign(
